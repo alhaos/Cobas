@@ -6,5 +6,8 @@
             Arch   = '.\Directories\Arch'
             Output = '.\Directories\Output'
         }
+        TestNameDict = @{
+            'HIV' = 'HIV'
+        }
     }
 }

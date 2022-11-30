@@ -5,7 +5,7 @@ class Cobas {
     [string]$DirecoryInput
     [string]$DirecoryArch
     [string]$DirecoryOutput
-    
+    [hashtable]$TestNameDict
     [CobasFile[]]$Files
 
 }
@@ -51,6 +51,7 @@ function Initialize-Cobas {
     $Cobas.DirecoryInput = $conf.Directories.Input
     $Cobas.DirecoryArch = $conf.Directories.Arch
     $Cobas.DirecoryOutput = $conf.Directories.Output
+    $Cobas.TestNameDict = $conf.TestNameDict
 }
 function Import-CobasFiles {
     
@@ -73,6 +74,8 @@ function Import-CobasFiles {
                     }
                     else {
                         Write-LogError "Unexpected section instead MSH in $line at $file"
+                        $bufferFile.Filename = $file.FullName                          
+                        $Cobas.Files += , $bufferFile
                         continue file
                     }
                 }
@@ -83,6 +86,8 @@ function Import-CobasFiles {
                     }
                     else {
                         Write-LogError "Unexpected section instead PID in $line at $file"
+                        $bufferFile.Filename = $file.FullName                          
+                        $Cobas.Files += , $bufferFile
                         continue file
                     }
                 }
@@ -93,6 +98,8 @@ function Import-CobasFiles {
                     }
                     else {
                         Write-LogError "Unexpected section instead SAC in $line at $file"
+                        $bufferFile.Filename = $file.FullName                          
+                        $Cobas.Files += , $bufferFile
                         continue file
                     }
                 }
@@ -103,6 +110,8 @@ function Import-CobasFiles {
                     }
                     else {
                         Write-LogError "Unexpected section instead ORC in $line at $file"
+                        $bufferFile.Filename = $file.FullName                          
+                        $Cobas.Files += , $bufferFile
                         continue file
                     }
                 }
@@ -122,13 +131,15 @@ function Import-CobasFiles {
                     } 
                     else {
                         Write-LogError "Unexpected section instead OBR in $line at $file"
+                        $bufferFile.Filename = $file.FullName                          
+                        $Cobas.Files += , $bufferFile
                         continue file
                     }
                 }
                 ([ReadState]::OBR) {
                     if ( $sectionName -eq "OBX") {
                         $testName, $testResult = $line.Split("|")[3, 5]
-                        $bufferResult.TestName = $testName
+                        $bufferResult.TestName = $Cobas.TestNameDict.Keys -contains $testName ? $Cobas.TestNameDict.$testName : $testName
                         $bufferResult.TestResult = $testResult
                         $bufferFile.Results += , $bufferResult
                         $readState = [ReadState]::OBX
@@ -136,6 +147,8 @@ function Import-CobasFiles {
                     }
                     else {
                         Write-LogError "Unexpected section instead OBX in $line at $file"
+                        $bufferFile.Filename = $file.FullName                          
+                        $Cobas.Files += , $bufferFile
                         continue file
                     }
                 }
@@ -143,7 +156,7 @@ function Import-CobasFiles {
                     switch ($sectionName) {
                         "OBX" {
                             $testName, $testResult = $line.Split("|")[3, 5]
-                            $bufferResult.TestName = $testName
+                            $bufferResult.TestName = $Cobas.TestNameDict.Keys -contains $testName ? $Cobas.TestNameDict.$testName : $testName
                             $bufferResult.TestResult = $testResult
                             $bufferFile.Results += , $bufferResult
                         }
@@ -158,6 +171,8 @@ function Import-CobasFiles {
                         }
                         Default {
                             Write-LogError "Unexpected section instead OBX, OBC, TCD in $line at $file"
+                            $bufferFile.Filename = $file.FullName                          
+                            $Cobas.Files += , $bufferFile
                             continue file
                         }
                     }
@@ -168,6 +183,7 @@ function Import-CobasFiles {
     }
     Write-LogInfo "}"
 }
+
 function Show-Cobas {
     write-host ($Cobas | ConvertTo-Json -Depth 5)   
 }
@@ -184,7 +200,7 @@ function Export-CobasFiles {
 }
 function Start-ArchiveCobasFiles {
     foreach ($cobasFile in $Cobas.Files) {
-        Write-LogInfo "arhive file $($cobasFile.OutFilename)"
+        Write-LogInfo "arhive file $($Cobas.DirecoryArch)"
         Move-Item $cobasFile.Filename $Cobas.DirecoryArch
     }
 }

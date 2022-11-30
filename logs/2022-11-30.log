@@ -143,3 +143,91 @@
 2022-11-30 23:58:43 | Info  | }
 2022-11-30 14:20:58 | Info  | Script Cobos start
 2022-11-30 14:20:58 | Info  | Import-CobasFiles {
+2022-11-30 14:22:26 | Info  | Script Cobos start
+2022-11-30 14:22:26 | Info  | Import-CobasFiles {
+2022-11-30 14:22:26 | Info  | 	Found file testFile1.txt {
+2022-11-30 14:22:26 | Info  | }
+2022-11-30 14:22:26 | Info  | export file .\Directories\Output\testFile1.txt
+2022-11-30 14:22:26 | Info  | arhive file .\Directories\Output\testFile1.txt
+2022-11-30 14:22:26 | Info  | Script Cobos finish
+2022-11-30 14:31:27 | Info  | Script Cobos start
+2022-11-30 14:31:27 | Info  | Import-CobasFiles {
+2022-11-30 14:31:27 | Info  | 	Found file testFile1.txt {
+2022-11-30 14:31:27 | Info  | }
+2022-11-30 14:31:27 | Info  | export file .\Directories\Output\testFile1.txt
+2022-11-30 14:31:27 | Info  | arhive file .\Directories\Arch
+2022-11-30 14:31:27 | Info  | Script Cobos finish
+2022-11-30 14:33:06 | Info  | Script Cobos start
+2022-11-30 14:33:06 | Info  | Import-CobasFiles {
+2022-11-30 14:33:06 | Info  | 	Found file testFile1.txt {
+2022-11-30 14:33:06 | Error | Unexpected section instead MSH in SH|^~\&|cobas infinity 3.02.09|Roche Diagnostics|Receiver Application|Receiver Facility|20221117202123||OUL^R21^OUL_R21|5808875F-D8D1-4DE6-A8E6-4FEF938FC949|P|2.4|||ER|ER||8859/1 at D:\Script\Cobas\Directories\Input\testFile1.txt
+2022-11-30 14:33:06 | Info  | }
+2022-11-30 14:33:06 | Info  | Script Cobos finish
+2022-11-30 14:34:24 | Info  | Script Cobos start
+2022-11-30 14:34:24 | Info  | Import-CobasFiles {
+2022-11-30 14:34:24 | Info  | 	Found file testFile1.txt {
+2022-11-30 14:34:24 | Info  | 	Found file testFile2.txt {
+2022-11-30 14:34:24 | Error | Unexpected section instead MSH in SH|^~\&|cobas infinity 3.02.09|Roche Diagnostics|Receiver Application|Receiver Facility|20221117202123||OUL^R21^OUL_R21|5808875F-D8D1-4DE6-A8E6-4FEF938FC949|P|2.4|||ER|ER||8859/1 at D:\Script\Cobas\Directories\Input\testFile2.txt
+2022-11-30 14:34:24 | Info  | }
+2022-11-30 14:34:24 | Info  | export file .\Directories\Output\testFile1.txt
+2022-11-30 14:34:24 | Info  | arhive file .\Directories\Arch
+2022-11-30 14:34:24 | Info  | Script Cobos finish
+2022-11-30 14:34:48 | Info  | Script Cobos start
+2022-11-30 14:34:48 | Info  | Import-CobasFiles {
+2022-11-30 14:34:48 | Info  | 	Found file testFile2.txt {
+2022-11-30 14:34:48 | Error | Unexpected section instead MSH in SH|^~\&|cobas infinity 3.02.09|Roche Diagnostics|Receiver Application|Receiver Facility|20221117202123||OUL^R21^OUL_R21|5808875F-D8D1-4DE6-A8E6-4FEF938FC949|P|2.4|||ER|ER||8859/1 at D:\Script\Cobas\Directories\Input\testFile2.txt
+2022-11-30 14:34:48 | Info  | }
+2022-11-30 14:34:48 | Info  | Script Cobos finish
+2022-11-30 14:37:08 | Info  | Script Cobos start
+2022-11-30 14:37:08 | Info  | Import-CobasFiles {
+2022-11-30 14:37:08 | Info  | 	Found file testFile2.txt {
+2022-11-30 14:37:08 | Error | Unexpected section instead MSH in SH|^~\&|cobas infinity 3.02.09|Roche Diagnostics|Receiver Application|Receiver Facility|20221117202123||OUL^R21^OUL_R21|5808875F-D8D1-4DE6-A8E6-4FEF938FC949|P|2.4|||ER|ER||8859/1 at D:\Script\Cobas\Directories\Input\testFile2.txt
+2022-11-30 14:37:08 | Info  | }
+2022-11-30 14:37:08 | Info  | empty file  skipped
+2022-11-30 14:37:08 | Info  | arhive file .\Directories\Arch
+2022-11-30 14:38:44 | Info  | Script Cobos start
+2022-11-30 14:38:44 | Info  | Import-CobasFiles {
+2022-11-30 14:38:44 | Info  | 	Found file testFile2.txt {
+2022-11-30 14:38:44 | Error | Unexpected section instead MSH in SH|^~\&|cobas infinity 3.02.09|Roche Diagnostics|Receiver Application|Receiver Facility|20221117202123||OUL^R21^OUL_R21|5808875F-D8D1-4DE6-A8E6-4FEF938FC949|P|2.4|||ER|ER||8859/1 at D:\Script\Cobas\Directories\Input\testFile2.txt
+2022-11-30 14:38:44 | Info  | }
+2022-11-30 14:38:44 | Info  | empty file  skipped
+2022-11-30 14:38:44 | Info  | arhive file .\Directories\Arch
+2022-11-30 14:38:44 | Info  | Script Cobos finish
+2022-11-30 14:38:46 | Info  | Script Cobos start
+2022-11-30 14:38:46 | Info  | Import-CobasFiles {
+2022-11-30 14:38:46 | Info  | }
+2022-11-30 14:38:46 | Info  | Script Cobos finish
+2022-11-30 14:40:02 | Info  | Script Cobos start
+2022-11-30 14:40:02 | Info  | Import-CobasFiles {
+2022-11-30 14:40:02 | Info  | }
+2022-11-30 14:40:02 | Info  | Script Cobos finish
+2022-11-30 14:40:49 | Info  | Script Cobos start
+2022-11-30 14:40:49 | Info  | Import-CobasFiles {
+2022-11-30 14:40:49 | Info  | 	Found file testFile1.txt {
+2022-11-30 14:40:49 | Info  | 	Found file testFile2.txt {
+2022-11-30 14:40:49 | Error | Unexpected section instead MSH in SH|^~\&|cobas infinity 3.02.09|Roche Diagnostics|Receiver Application|Receiver Facility|20221117202123||OUL^R21^OUL_R21|5808875F-D8D1-4DE6-A8E6-4FEF938FC949|P|2.4|||ER|ER||8859/1 at D:\Script\Cobas\Directories\Input\testFile2.txt
+2022-11-30 14:40:49 | Info  | 	Found file testFile3.txt {
+2022-11-30 14:40:49 | Error | Unexpected section instead ORC in SAC|||2211161452||||||C6800 at D:\Script\Cobas\Directories\Input\testFile3.txt
+2022-11-30 14:40:49 | Info  | }
+2022-11-30 14:40:49 | Info  | export file .\Directories\Output\testFile1.txt
+2022-11-30 14:40:49 | Info  | empty file  skipped
+2022-11-30 14:40:49 | Info  | empty file  skipped
+2022-11-30 14:40:49 | Info  | arhive file .\Directories\Arch
+2022-11-30 14:40:49 | Info  | arhive file .\Directories\Arch
+2022-11-30 14:40:49 | Info  | arhive file .\Directories\Arch
+2022-11-30 14:40:49 | Info  | Script Cobos finish
+2022-11-30 14:41:15 | Info  | Script Cobos start
+2022-11-30 14:41:15 | Info  | Import-CobasFiles {
+2022-11-30 14:41:15 | Info  | 	Found file testFile1.txt {
+2022-11-30 14:41:15 | Info  | 	Found file testFile2.txt {
+2022-11-30 14:41:15 | Error | Unexpected section instead MSH in SH|^~\&|cobas infinity 3.02.09|Roche Diagnostics|Receiver Application|Receiver Facility|20221117202123||OUL^R21^OUL_R21|5808875F-D8D1-4DE6-A8E6-4FEF938FC949|P|2.4|||ER|ER||8859/1 at D:\Script\Cobas\Directories\Input\testFile2.txt
+2022-11-30 14:41:15 | Info  | 	Found file testFile3.txt {
+2022-11-30 14:41:15 | Error | Unexpected section instead ORC in SAC|||2211161452||||||C6800 at D:\Script\Cobas\Directories\Input\testFile3.txt
+2022-11-30 14:41:15 | Info  | }
+2022-11-30 14:41:15 | Info  | export file .\Directories\Output\testFile1.txt
+2022-11-30 14:41:15 | Info  | empty file  skipped
+2022-11-30 14:41:15 | Info  | empty file  skipped
+2022-11-30 14:41:15 | Info  | arhive file .\Directories\Arch
+2022-11-30 14:41:15 | Info  | arhive file .\Directories\Arch
+2022-11-30 14:41:15 | Info  | arhive file .\Directories\Arch
+2022-11-30 14:41:15 | Info  | Script Cobos finish

@@ -10,7 +10,7 @@ Initialize-Cobas $conf.Cobas
 Write-LogInfo ("Script {0} start" -f $conf.Name)
 
 Import-CobasFiles
-Show-Cobas
+#Show-Cobas
 Export-CobasFiles
 Start-ArchiveCobasFiles
 

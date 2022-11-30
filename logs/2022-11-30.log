@@ -141,3 +141,5 @@
 2022-11-30 23:58:43 | Info  | Import-CobasFiles {
 2022-11-30 23:58:43 | Info  | 	Found file testFile1.txt {
 2022-11-30 23:58:43 | Info  | }
+2022-11-30 14:20:58 | Info  | Script Cobos start
+2022-11-30 14:20:58 | Info  | Import-CobasFiles {

@@ -1,0 +1,32 @@
+2022-12-01 00:02:21 | Info  | Script Cobos start
+2022-12-01 00:02:21 | Info  | Import-CobasFiles {
+2022-12-01 00:02:21 | Info  | 	Found file testFile1.txt {
+2022-12-01 00:02:21 | Info  | }
+2022-12-01 00:02:21 | Info  | Script Cobos finish
+2022-12-01 00:03:10 | Info  | Script Cobos start
+2022-12-01 00:03:10 | Info  | Import-CobasFiles {
+2022-12-01 00:03:10 | Info  | 	Found file testFile1.txt {
+2022-12-01 00:03:10 | Info  | }
+2022-12-01 00:03:10 | Info  | Script Cobos finish
+2022-12-01 00:04:04 | Info  | Script Cobos start
+2022-12-01 00:04:04 | Info  | Import-CobasFiles {
+2022-12-01 00:04:04 | Info  | 	Found file testFile1.txt {
+2022-12-01 00:04:04 | Info  | }
+2022-12-01 00:04:04 | Info  | Script Cobos finish
+2022-12-01 00:05:34 | Info  | Script Cobos start
+2022-12-01 00:05:34 | Info  | Import-CobasFiles {
+2022-12-01 00:05:34 | Info  | 	Found file testFile1.txt {
+2022-12-01 00:05:34 | Info  | }
+2022-12-01 00:05:34 | Info  | export file D:\repository\Cobas\Directories\Output\testFile1.txt
+2022-12-01 00:05:34 | Info  | Script Cobos finish
+2022-12-01 00:08:39 | Info  | Script Cobos start
+2022-12-01 00:08:39 | Info  | Import-CobasFiles {
+2022-12-01 00:08:39 | Info  | 	Found file testFile1.txt {
+2022-12-01 00:08:39 | Info  | }
+2022-12-01 00:08:39 | Info  | export file D:\repository\Cobas\Directories\Output\testFile1.txt
+2022-12-01 00:08:39 | Info  | arhive file D:\repository\Cobas\Directories\Output\testFile1.txt
+2022-12-01 00:08:39 | Info  | Script Cobos finish
+2022-12-01 00:08:44 | Info  | Script Cobos start
+2022-12-01 00:08:44 | Info  | Import-CobasFiles {
+2022-12-01 00:08:44 | Info  | }
+2022-12-01 00:08:44 | Info  | Script Cobos finish

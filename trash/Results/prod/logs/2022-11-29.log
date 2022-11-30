@@ -1,0 +1,17 @@
+2022-11-29 23:15:28.6457|INFO|logger|Start Cobas-Results
+2022-11-29 23:15:28.6986|INFO|logger|tmp_ init parameters:
+2022-11-29 23:15:28.6986|INFO|logger|Source directory :./paths/source
+2022-11-29 23:15:28.6986|INFO|logger|Wildcard         :*.txt
+2022-11-29 23:15:28.7117|INFO|logger|QArchPath        :./paths/QC
+2022-11-29 23:15:28.7117|INFO|logger|ErrArchPath      :./paths/errArch
+2022-11-29 23:15:28.7117|INFO|logger|ArchPath         :./paths/arch
+2022-11-29 23:15:28.7380|INFO|logger|Found 4 files
+2022-11-29 23:15:28.7521|INFO|logger|Process file: ./paths/source\Infinity-20221129225615.txt
+2022-11-29 23:15:28.7647|INFO|logger|Invalid file found [H] ./paths/source\Infinity-20221129225615.txt
+2022-11-29 23:15:28.7739|INFO|logger|Process file: ./paths/source\Infinity-20221129225636.txt
+2022-11-29 23:15:28.7739|INFO|logger|Invalid file found [H] ./paths/source\Infinity-20221129225636.txt
+2022-11-29 23:15:28.7739|INFO|logger|Process file: ./paths/source\Infinity-20221129225646.txt
+2022-11-29 23:15:28.7739|INFO|logger|Invalid file found [H] ./paths/source\Infinity-20221129225646.txt
+2022-11-29 23:15:28.7739|INFO|logger|Process file: ./paths/source\Infinity-20221129225657.txt
+2022-11-29 23:15:28.7739|INFO|logger|Invalid file found [H] ./paths/source\Infinity-20221129225657.txt
+2022-11-29 23:15:28.8017|INFO|logger|End Cobas-Results

@@ -1,0 +1,17 @@
+@{
+	Name       = "Cobas-Results"
+	tmp_       = @{
+		SourcePath  = "D:\Link\Cobas\Results"
+		Wildcard    = "*.txt"
+		QArchPath   = "./paths/QC"
+		ErrArchPath = "./paths/errArch"
+		ArchPath    = "./paths/arch"
+		Numbering   = "./resources/arc_count.txt"
+		OutPath     = "D:\INSTRUMENT\CFX96"
+		OutFileMask = "r_Cobas_{0:yyyyMMddhhmmss}.csv"
+	}
+	NLogConfig = @{
+		LogDirectory      = ".\logs"
+		LogFilenameFormat = '${shortdate}.log'
+	}
+}

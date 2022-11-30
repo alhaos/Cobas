@@ -1,0 +1,143 @@
+2022-11-30 21:55:39 | Info  | Script Cobos start
+2022-11-30 21:56:02 | Info  | Script Cobos start
+2022-11-30 21:56:02 | Info  | Script Cobos start
+2022-11-30 21:56:16 | Info  | Script Cobos start
+2022-11-30 21:56:16 | Info  | Script Cobos finish
+2022-11-30 22:15:36 | Info  | Script Cobos start
+2022-11-30 22:15:36 | Info  | Script Cobos finish
+2022-11-30 22:19:53 | Info  | Script Cobos start
+2022-11-30 22:19:53 | Info  | Script Cobos finish
+2022-11-30 22:20:38 | Info  | Script Cobos start
+2022-11-30 22:21:22 | Info  | Script Cobos start
+2022-11-30 22:21:41 | Info  | Script Cobos start
+2022-11-30 22:21:41 | Info  | Script Cobos finish
+2022-11-30 22:22:41 | Info  | Script Cobos start
+2022-11-30 22:23:17 | Info  | Script Cobos start
+2022-11-30 22:23:17 | Info  | Script Cobos finish
+2022-11-30 22:27:30 | Info  | Script Cobos start
+2022-11-30 22:27:30 | Info  | Import-CobosFiles start
+2022-11-30 22:27:30 | Info  | Import-CobosFiles start
+2022-11-30 22:27:30 | Info  | Script Cobos finish
+2022-11-30 22:28:10 | Info  | Script Cobos start
+2022-11-30 22:28:10 | Info  | Import-CobosFiles {
+2022-11-30 22:28:10 | Info  | }
+2022-11-30 22:28:10 | Info  | Script Cobos finish
+2022-11-30 22:28:59 | Info  | Script Cobos start
+2022-11-30 22:28:59 | Info  | Import-CobosFiles {
+2022-11-30 22:28:59 | Info  | 	Found file testFile1.txt
+2022-11-30 22:28:59 | Info  | }
+2022-11-30 22:28:59 | Info  | Script Cobos finish
+2022-11-30 22:29:54 | Info  | Script Cobos start
+2022-11-30 22:29:54 | Info  | Import-CobosFiles {
+2022-11-30 22:29:54 | Info  | 	Found file testFile1.txt {
+2022-11-30 22:29:54 | Info  | MSH|^~\&|cobas infinity 3.02.09|Roche Diagnostics|Receiver Application|Receiver Facility|20221117202123||OUL^R21^OUL_R21|5808875F-D8D1-4DE6-A8E6-4FEF938FC949|P|2.4|||ER|ER||8859/1
+2022-11-30 22:29:54 | Info  | PID|1|P10327678|P10327678||BOUROUAIS^SOULEYMAN||19900228|M
+2022-11-30 22:29:54 | Info  | SAC|||2211161452||||||C6800
+2022-11-30 22:29:54 | Info  | ORC|RE|2211161452|||||^^^^^R||20221117202123|||1124037346^MOHAMED|^^^0^^^^^Laboratory 1
+2022-11-30 22:29:54 | Info  | OBR|1|2211161452||ALL|R|20221117021900|||||||||^^^^^^P
+2022-11-30 22:29:54 | Info  | OBX|1|ST|HIV||ND|||ND,ALR|||F|||20221118012040|^^^C6800|DataManager-100923||C6800|20221118012040
+2022-11-30 22:29:54 | Info  | TCD|HIV
+2022-11-30 22:29:54 | Info  | }
+2022-11-30 22:29:54 | Info  | }
+2022-11-30 22:29:54 | Info  | Script Cobos finish
+2022-11-30 22:30:30 | Info  | Script Cobos start
+2022-11-30 22:30:30 | Info  | Import-CobosFiles {
+2022-11-30 22:30:30 | Info  | 	Found file testFile1.txt {
+2022-11-30 22:30:30 | Info  | }
+2022-11-30 22:30:30 | Info  | }
+2022-11-30 22:30:30 | Info  | Script Cobos finish
+2022-11-30 23:31:40 | Info  | Script Cobos start
+2022-11-30 23:32:00 | Info  | Script Cobos start
+2022-11-30 23:32:00 | Info  | Import-CobasFiles {
+2022-11-30 23:32:00 | Info  | 	Found file testFile1.txt {
+2022-11-30 23:32:22 | Info  | Script Cobos start
+2022-11-30 23:32:22 | Info  | Import-CobasFiles {
+2022-11-30 23:32:22 | Info  | 	Found file testFile1.txt {
+2022-11-30 23:33:29 | Info  | Script Cobos start
+2022-11-30 23:33:29 | Info  | Import-CobasFiles {
+2022-11-30 23:33:29 | Info  | 	Found file testFile1.txt {
+2022-11-30 23:33:42 | Info  | Script Cobos start
+2022-11-30 23:33:42 | Info  | Import-CobasFiles {
+2022-11-30 23:33:42 | Info  | 	Found file testFile1.txt {
+2022-11-30 23:34:04 | Info  | Script Cobos start
+2022-11-30 23:34:04 | Info  | Import-CobasFiles {
+2022-11-30 23:34:43 | Info  | 	Found file testFile1.txt {
+2022-11-30 23:40:25 | Info  | Script Cobos start
+2022-11-30 23:40:25 | Info  | Import-CobasFiles {
+2022-11-30 23:40:30 | Info  | 	Found file testFile1.txt {
+2022-11-30 23:41:30 | Info  | Script Cobos start
+2022-11-30 23:41:30 | Info  | Import-CobasFiles {
+2022-11-30 23:41:30 | Info  | 	Found file testFile1.txt {
+2022-11-30 23:41:52 | Info  | Script Cobos start
+2022-11-30 23:41:52 | Info  | Import-CobasFiles {
+2022-11-30 23:41:52 | Info  | 	Found file testFile1.txt {
+2022-11-30 23:41:52 | Info  | }
+2022-11-30 23:42:14 | Info  | Script Cobos start
+2022-11-30 23:42:14 | Info  | Import-CobasFiles {
+2022-11-30 23:42:14 | Info  | 	Found file testFile1.txt {
+2022-11-30 23:42:14 | Info  | }
+2022-11-30 23:42:14 | Info  | Script Cobos finish
+2022-11-30 23:42:37 | Info  | Script Cobos start
+2022-11-30 23:42:37 | Info  | Import-CobasFiles {
+2022-11-30 23:42:37 | Info  | 	Found file testFile1.txt {
+2022-11-30 23:42:37 | Info  | }
+2022-11-30 23:42:37 | Info  | Script Cobos finish
+2022-11-30 23:44:08 | Info  | Script Cobos start
+2022-11-30 23:44:08 | Info  | Import-CobasFiles {
+2022-11-30 23:44:08 | Info  | 	Found file testFile1.txt {
+2022-11-30 23:44:56 | Info  | Script Cobos start
+2022-11-30 23:44:56 | Info  | Import-CobasFiles {
+2022-11-30 23:44:56 | Info  | 	Found file testFile1.txt {
+2022-11-30 23:44:56 | Info  | }
+2022-11-30 23:44:56 | Info  | Script Cobos finish
+2022-11-30 23:47:11 | Info  | Script Cobos start
+2022-11-30 23:47:11 | Info  | Import-CobasFiles {
+2022-11-30 23:47:11 | Info  | 	Found file testFile1.txt {
+2022-11-30 23:47:11 | Info  | }
+2022-11-30 23:47:20 | Info  | Script Cobos start
+2022-11-30 23:47:20 | Info  | Import-CobasFiles {
+2022-11-30 23:47:20 | Info  | 	Found file testFile1.txt {
+2022-11-30 23:47:20 | Info  | }
+2022-11-30 23:47:20 | Info  | Script Cobos finish
+2022-11-30 23:49:41 | Info  | Script Cobos start
+2022-11-30 23:49:41 | Info  | Import-CobasFiles {
+2022-11-30 23:49:41 | Info  | 	Found file testFile1.txt {
+2022-11-30 23:49:41 | Info  | }
+2022-11-30 23:49:50 | Info  | Script Cobos start
+2022-11-30 23:49:50 | Info  | Import-CobasFiles {
+2022-11-30 23:49:50 | Info  | 	Found file testFile1.txt {
+2022-11-30 23:49:50 | Info  | }
+2022-11-30 23:49:50 | Info  | Script Cobos finish
+2022-11-30 23:50:08 | Info  | Script Cobos start
+2022-11-30 23:50:08 | Info  | Import-CobasFiles {
+2022-11-30 23:50:08 | Info  | 	Found file testFile1.txt {
+2022-11-30 23:50:08 | Info  | }
+2022-11-30 23:50:08 | Info  | Script Cobos finish
+2022-11-30 23:52:21 | Info  | Script Cobos start
+2022-11-30 23:52:21 | Info  | Import-CobasFiles {
+2022-11-30 23:52:21 | Info  | 	Found file testFile1.txt {
+2022-11-30 23:52:21 | Info  | }
+2022-11-30 23:52:21 | Info  | Script Cobos finish
+2022-11-30 23:53:58 | Info  | Script Cobos start
+2022-11-30 23:53:58 | Info  | Import-CobasFiles {
+2022-11-30 23:53:58 | Info  | 	Found file testFile1.txt {
+2022-11-30 23:53:58 | Info  | }
+2022-11-30 23:53:58 | Info  | Script Cobos finish
+2022-11-30 23:54:19 | Info  | Script Cobos start
+2022-11-30 23:54:19 | Info  | Import-CobasFiles {
+2022-11-30 23:54:19 | Info  | 	Found file testFile1.txt {
+2022-11-30 23:54:19 | Info  | }
+2022-11-30 23:54:19 | Info  | Script Cobos finish
+2022-11-30 23:56:59 | Info  | Script Cobos start
+2022-11-30 23:56:59 | Info  | Import-CobasFiles {
+2022-11-30 23:56:59 | Info  | 	Found file testFile1.txt {
+2022-11-30 23:56:59 | Info  | }
+2022-11-30 23:57:35 | Info  | Script Cobos start
+2022-11-30 23:57:35 | Info  | Import-CobasFiles {
+2022-11-30 23:57:35 | Info  | 	Found file testFile1.txt {
+2022-11-30 23:57:35 | Info  | }
+2022-11-30 23:57:35 | Info  | Script Cobos finish
+2022-11-30 23:58:43 | Info  | Script Cobos start
+2022-11-30 23:58:43 | Info  | Import-CobasFiles {
+2022-11-30 23:58:43 | Info  | 	Found file testFile1.txt {
+2022-11-30 23:58:43 | Info  | }

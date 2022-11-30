@@ -173,8 +173,13 @@ function Show-Cobas {
 }
 function Export-CobasFiles {
     foreach ($cobasFile in $Cobas.Files) {
-        Write-LogInfo "export file $($cobasFile.OutFilename)"
-        (($cobasFile.Results | ConvertTo-Csv -UseQuotes AsNeeded) -join ([environment]::NewLine)) | Set-Content $cobasFile.OutFilename
+        if ($cobasFile.Results) {
+            Write-LogInfo "export file $($cobasFile.OutFilename)"
+            (($cobasFile.Results | ConvertTo-Csv -UseQuotes AsNeeded) -join ([environment]::NewLine)) | Set-Content $cobasFile.OutFilename
+        }
+        else {
+            Write-LogInfo "empty file $($cobasFile.OutFilename) skipped"
+        }
     }
 }
 function Start-ArchiveCobasFiles {
